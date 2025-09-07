@@ -5,7 +5,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 import time
-import logging
 
 def login_to_islandsbanki():
     # Set up Chrome options
@@ -54,25 +53,57 @@ def login_to_islandsbanki():
             driver.execute_script("arguments[0].click();", login_button)
             print("Button clicked successfully!")
             
-            # Wait a bit to see the result
-            time.sleep(3)
+            # Wait longer for the result and page to fully load
+            print("Waiting for page to load after login...")
+            time.sleep(5)
             
-            # Wait for web page content - accounts table with "Ávöxtun" text
+            # Print current URL to see where we are
+            print(f"Current URL: {driver.current_url}")
+            
+            # Check if we're still on the login page or have moved
+            if "netbanki.islandsbanki.is" not in driver.current_url:
+                print("⚠️ Not on expected domain after login attempt")
+            
+            # Wait for accounts table with "Ávöxtun" text
             print("Waiting for accounts table with 'Ávöxtun' to load...")
+            
             try:
-                avoxtur_element = wait.until(EC.presence_of_element_located(
-                    (By.CSS_SELECTOR, "table[id='accounts-table'] > tbody > tr > td")
-                ))
-                print("Found accounts table!")
+                wait = WebDriverWait(driver, 30)  # Increased timeout
                 
-                # Now look specifically for the Ávöxtun cell
-                avoxtur_cell = driver.find_element(By.CSS_SELECTOR, "table[id='accounts-table'] > tbody > tr > td")
-                if "Ávöxtun" in avoxtur_cell.text:
-                    print("Found 'Ávöxtun' element!")
-                else:
-                    print(f"Found table cell but text was: '{avoxtur_cell.text}'")
-            except:
-                print("Could not find 'Ávöxtun' element")
+                # Wait specifically for the element containing "Ávöxtun" text
+                # This mimics Power Automate's approach: table[Id="accounts-table"] > tbody > tr > td[Text="Ávöxtun"]
+                avoxtur_element = wait.until(
+                    EC.presence_of_element_located((By.XPATH, "//table[@id='accounts-table']//tbody//tr//td[contains(text(), 'Ávöxtun')]"))
+                )
+                
+                print(f"✅ Found 'Ávöxtun' element with text: '{avoxtur_element.text}'")
+                print("✅ Login successful!")
+                return True
+                    
+            except Exception as e:
+                print(f"Could not find 'Ávöxtun' element: {e}")
+                
+                # Debug: Let's see what tables and content are actually available
+                try:
+                    print("Debug: Looking for any tables...")
+                    tables = driver.find_elements(By.TAG_NAME, "table")
+                    print(f"Found {len(tables)} table(s)")
+                    
+                    for i, table in enumerate(tables):
+                        print(f"Table {i}: id='{table.get_attribute('id')}', class='{table.get_attribute('class')}'")
+                        
+                    # Also check for any cells with text
+                    cells = driver.find_elements(By.TAG_NAME, "td")
+                    print(f"Found {len(cells)} td elements")
+                    
+                    for cell in cells[:10]:  # Show first 10 cells only
+                        if cell.text.strip():
+                            print(f"Cell text: '{cell.text[:50]}'")
+                            
+                except Exception as debug_e:
+                    print(f"Debug failed: {debug_e}")
+                
+                return False
             
         except:
             print("Could not find login button")
@@ -94,4 +125,8 @@ def login_to_islandsbanki():
         print("Script finished. Browser will remain open for inspection.")
 
 if __name__ == "__main__":
-    login_to_islandsbanki()
+    result = login_to_islandsbanki()
+    if result:
+        print("🎉 Overall Status: SUCCESS")
+    else:
+        print("💥 Overall Status: FAILED")
