@@ -1,0 +1,136 @@
+{
+  "timestamp": "2025-09-07T13:33:14.939733",
+  "url": "https://netbanki.islandsbanki.is/home",
+  "cookies": [
+    {
+      "domain": ".islandsbanki.is",
+      "httpOnly": false,
+      "name": "dtSaju8zkpx5",
+      "path": "/",
+      "sameSite": "Strict",
+      "secure": true,
+      "value": "-"
+    },
+    {
+      "domain": ".islandsbanki.is",
+      "httpOnly": false,
+      "name": "rxvtju8zkpx5",
+      "path": "/",
+      "sameSite": "Strict",
+      "secure": true,
+      "value": "1757253794883|1757251964008"
+    },
+    {
+      "domain": ".islandsbanki.is",
+      "httpOnly": false,
+      "name": "AEPECID",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "00582697963343883961325984455266742203"
+    },
+    {
+      "domain": ".islandsbanki.is",
+      "expiry": 1790947966,
+      "httpOnly": false,
+      "name": "AMCV_E1D74AD56298E9740A495FA5%40AdobeOrg",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "MCMID|00582697963343883961325984455266742203"
+    },
+    {
+      "domain": ".islandsbanki.is",
+      "httpOnly": false,
+      "name": "dtPCju8zkpx5",
+      "path": "/",
+      "sameSite": "Strict",
+      "secure": true,
+      "value": "13$451989023_698h80vCHKCVPSNCJKUMURJCOUEBFBJWIUHDATT-0e0"
+    },
+    {
+      "domain": ".islandsbanki.is",
+      "expiry": 1772803994,
+      "httpOnly": false,
+      "name": "kndctr_E1D74AD56298E9740A495FA5_AdobeOrg_consent",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "general=in"
+    },
+    {
+      "domain": ".islandsbanki.is",
+      "expiry": 1757253794,
+      "httpOnly": false,
+      "name": "kndctr_E1D74AD56298E9740A495FA5_AdobeOrg_cluster",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "irl1"
+    },
+    {
+      "domain": ".islandsbanki.is",
+      "expiry": 1757255588,
+      "httpOnly": false,
+      "name": "isbssopartyid",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "0001282312"
+    },
+    {
+      "domain": ".islandsbanki.is",
+      "expiry": 1791811990,
+      "httpOnly": false,
+      "name": "rxVisitorju8zkpx5",
+      "path": "/",
+      "sameSite": "Strict",
+      "secure": true,
+      "value": "1757251962261SO19CTUOAGFJROTQJ8GU3RSONQ3S10FB"
+    },
+    {
+      "domain": ".islandsbanki.is",
+      "httpOnly": false,
+      "name": "dtCookieju8zkpx5",
+      "path": "/",
+      "sameSite": "Strict",
+      "secure": true,
+      "value": "v_4_srv_13_sn_FD3E6C494FD3620573868558D8388578_perc_100000_ol_0_mul_1_app-3A1298000963a98b63_1_app-3Adb3a54b47dc8154c_1"
+    },
+    {
+      "domain": ".islandsbanki.is",
+      "expiry": 1791379966,
+      "httpOnly": false,
+      "name": "kndctr_E1D74AD56298E9740A495FA5_AdobeOrg_identity",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "CiYwMDU4MjY5Nzk2MzM0Mzg4Mzk2MTMyNTk4NDQ1NTI2Njc0MjIwM1ITCMCqhKOSMxABGAEqBElSTDEwAPABwKqEo5Iz"
+    },
+    {
+      "domain": ".islandsbanki.is",
+      "httpOnly": false,
+      "name": "isb_purge_storage",
+      "path": "/",
+      "sameSite": "Strict",
+      "secure": false,
+      "value": "true"
+    }
+  ],
+  "local_storage": {
+    "ACTION_NAME": "UserActive",
+    "com.adobe.alloy.E1D74AD56298E9740A495FA5_AdobeOrg.consentHashes.Adobe.1.0": "3165644325",
+    "com.adobe.reactor.dataElements.SDK:Consent": "\"in\"",
+    "com.adobe.reactor.dataElements.SDK:Consent Target": "\"in\"",
+    "rxVisitorju8zkpx5": "1757251962261SO19CTUOAGFJROTQJ8GU3RSONQ3S10FB"
+  },
+  "session_storage": {
+    "0-INB": "{\"storageCodeFlowInProgress\":false,\"authWellKnownEndPoints\":{\"issuer\":\"https://auth.islandsbanki.is:443/sso/oauth2/realms/root/realms/isb\",\"jwksUri\":\"https://auth.islandsbanki.is:443/sso/oauth2/realms/root/realms/isb/connect/jwk_uri\",\"authorizationEndpoint\":\"https://auth.islandsbanki.is:443/sso/oauth2/realms/root/realms/isb/authorize\",\"tokenEndpoint\":\"https://auth.islandsbanki.is:443/sso/oauth2/realms/root/realms/isb/access_token\",\"userInfoEndpoint\":\"https://auth.islandsbanki.is:443/sso/oauth2/realms/root/realms/isb/userinfo\",\"endSessionEndpoint\":\"https://auth.islandsbanki.is:443/sso/oauth2/realms/root/realms/isb/connect/endSession\",\"checkSessionIframe\":\"https://auth.islandsbanki.is:443/sso/oauth2/realms/root/realms/isb/connect/checkSession\",\"revocationEndpoint\":\"https://auth.islandsbanki.is:443/sso/oauth2/realms/root/realms/isb/token/revoke\",\"introspectionEndpoint\":\"https://auth.islandsbanki.is:443/sso/oauth2/realms/root/realms/isb/introspect\"},\"storageSilentRenewRunning\":\"\",\"authStateControl\":\"\",\"authNonce\":null,\"codeVerifier\":\"b4151da1f4735056255b80517b809ce622845e70530b36003d6fa66498edjFLgPPh\",\"authnResult\":{\"access_token\":\"eyJ0eXAiOiJKV1QiLCJraWQiOiJEeFZ5Qm44eEZjRGl6YjByRzlwOUt1d1YrS3M9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIzNzQ0ODUiLCJjdHMiOiJPQVVUSDJfU1RBVEVMRVNTX0dSQU5UIiwiYXV0aF9sZXZlbCI6MzAsImF1ZGl0VHJhY2tpbmdJZCI6ImI5OGUzYzk2LTAzYzctNDA5ZS05Y2ZjLTQ0ZWFjYTEyZDExZi0yNTU3MzExOTIiLCJzdWJuYW1lIjoiMzc0NDg1IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmlzbGFuZHNiYW5raS5pczo0NDMvc3NvL29hdXRoMi9yZWFsbXMvcm9vdC9yZWFsbXMvaXNiIiwidG9rZW5OYW1lIjoiYWNjZXNzX3Rva2VuIiwidG9rZW5fdHlwZSI6IkJlYXJlciIsImF1dGhHcmFudElkIjoiNTd6LUsxWXItdzF4YVFPS3ZrUEVBazR0T0tNIiwibm9uY2UiOiIxMmI4NzYwMTUwMTE5OTBkMzQzYjc5Nzg0MmYwY2NkYTg1UnljOWxpRiIsImF1ZCI6IklOQiIsIm5iZiI6MTc1NzI1MTk4OSwiZ3JhbnRfdHlwZSI6ImF1dGhvcml6YXRpb25fY29kZSIsInNjb3BlIjpbImNhcmRzOnJlYWQiLCJmeGluc3RydW1lbnRzIiwiZG9jdW1lbnRzIiwibG9hbnMiLCJvcGVuaWQiLCJwYXltZW50cyIsImNhcmRzOnRyYW5zYWN0aW9uczpyZWFkIiwiZXhwZW5zZXM6d3JpdGUiLCJpYW06dXNlcnMiLCJtYXJrZXRzb3JkZXJzIiwiZXhwZW5zZXM6cmVhZCIsImNhcmRzOndyaXRlIiwib25saW5lYmFua1Byb2ZpbGUiLCJjbGFpbXMiLCJjYXJkczpwaW46cmVhZCIsImFjY291bnRzIiwiY2FyZHM6cGFuOnJlYWQiXSwiYXV0aF90aW1lIjoxNzU3MjUxOTg2LCJyZWFsbSI6Ii9pc2IiLCJleHAiOjE3NTcyNTIxNjksImlhdCI6MTc1NzI1MTk4OSwiZXhwaXJlc19pbiI6MTgwLCJqdGkiOiIwV25yQmYyU2tKcEZxVHN4U29vNVpiSHA4cDAiLCJtYXlfYWN0Ijp7ImNsaWVudF9pZCI6Im9uZWFwcCJ9LCJ2ZXIiOiIxLjEiLCJ1c2VyVHlwZSI6IjEiLCJhY3QiOnsic3ViIjoiMzc0NDg1IiwicGFydHlfaWQiOiIwMDAxMjgyMzEyIiwibmFtZSI6Ikd1bm5hciBTdGVpbmdyw61tc3NvbiIsInNzbiI6IjE2MTE3OTQ3NzkifSwicGFydHlfaWQiOiIwMDAxMjgyMzEyIiwibmFtZSI6Ikd1bm5hciBTdGVpbmdyw61tc3NvbiIsInNzbiI6IjE2MTE3OTQ3NzkiLCJ0cmFja2luZ19pZCI6ImI5OGUzYzk2LTAzYzctNDA5ZS05Y2ZjLTQ0ZWFjYTEyZDExZi0yNTU3MjUwNDAiLCJhdXRoU291cmNlIjoiSU5CIiwiYXV0aE1ldGhvZCI6ImF1ZGtlbm5pLXNpbSIsImt5Y1N0YXR1cyI6IjEiLCJjdXN0b21lciI6eyJwYXJ0eV9pZCI6IjAwMDEyODIzMTIiLCJzc24iOiIxNjExNzk0Nzc5In19.hqUCJZvrijfcVokNBwwLFtTEjIY9LjilYrIOM1IgUeQtKSLE4VGGiGqIPkM4H8kW6H_qgOYxcAVBsvNeUxMatPfPzJZBkJCvIl1rUdwgZJsYPOM7BbD4ttH9bAE-3Oidtw6rl-TFRbVc8qgwCtCNAsBy-WzCZSi1VnhwvAEowveR5Gf8aHiOAQkbc3EL3e-_gSNROW2xXLnc4xR1cqP1V6k43w7JiZTLFzSRqMz5izWFp-RiE73j09KpUZbG4jhbgiYK6e9bruDF5SveFHDYelKj68cd2kjunjPfQpaRjisiJRPs0O4KskBcN-UuQXlS-s1MhdBFN5XzUCwbBRktrQ\",\"scope\":\"cards:read fxinstruments documents loans openid payments cards:transactions:read expenses:write iam:users marketsorders expenses:read cards:write onlinebankProfile claims cards:pin:read accounts cards:pan:read\",\"id_token\":\"eyJ0eXAiOiJKV1QiLCJraWQiOiJvL0k2VHdxekhWTk9OcnZRTTBEeWQzTDJtcnc9IiwiYWxnIjoiUlMyNTYifQ.eyJhdF9oYXNoIjoiYmktN2xDdW1Ha2U2WndIREZONnlUZyIsInN1YiI6IjM3NDQ4NSIsImF1ZGl0VHJhY2tpbmdJZCI6ImI5OGUzYzk2LTAzYzctNDA5ZS05Y2ZjLTQ0ZWFjYTEyZDExZi0yNTU3MzExOTMiLCJpc3MiOiJodHRwczovL2F1dGguaXNsYW5kc2JhbmtpLmlzOjQ0My9zc28vb2F1dGgyL3JlYWxtcy9yb290L3JlYWxtcy9pc2IiLCJ0b2tlbk5hbWUiOiJpZF90b2tlbiIsIm5vbmNlIjoiMTJiODc2MDE1MDExOTkwZDM0M2I3OTc4NDJmMGNjZGE4NVJ5YzlsaUYiLCJzaWQiOiIwdE9jZHVLSFJ6Nkp6TkZyVGhwNi9pRTFPWVJ2dUZhQXB3MW9WV294bzdnPSIsImF1ZCI6IklOQiIsImNfaGFzaCI6IkpWUnFfVm9ZVE5peTBLYmdtbXRHc0EiLCJhY3IiOiIwIiwib3JnLmZvcmdlcm9jay5vcGVuaWRjb25uZWN0Lm9wcyI6ImpUWlAycmZacHJFYVFkRXRmRUFJZ0REUEhlOCIsInNfaGFzaCI6ImJERy1aNElLZUpuNmI2UXA1ZHRnVHciLCJhenAiOiJJTkIiLCJhdXRoX3RpbWUiOjE3NTcyNTE5ODYsInJlYWxtIjoiL2lzYiIsImV4cCI6MTc1NzI1MzE4OSwidG9rZW5UeXBlIjoiSldUVG9rZW4iLCJpYXQiOjE3NTcyNTE5ODl9.XPi30JdliK6T6rgTbjUEvA-yS3Ks0oMk2y-wnBf5b8E976q1hHn0z6pVyw6G10nxcV0Wq4scOhzbdmGvra530hxMun1jRfSH7mkUBBnF8bfowDkx0VQFAKzujvzXu0Lt-h8E7frBIWcsKH4y5tpNaXNIna3oBW1q6trRqG7WOwjSBKTzl675cxffKqZRzOt3b_rY_v7z4yyllg7Jz8plyxwdXhTv58_Hs_CcG-GrNbhBn5L9H1E5nqRNEPrpzmCOGvBc5stzsZ9pJZUO3KGywYCkA94aOfQFHi4gPEZnhpNQl3xPaYn6Jrz4Fe6SIsO2GLax7W0onhVsHkWk_46wLw\",\"token_type\":\"Bearer\",\"expires_in\":179,\"nonce\":\"12b876015011990d343b797842f0ccda85Ryc9liF\",\"state\":\"496a29435bc223fbd596d988342692212aDJkwgeQ\",\"session_state\":\"\"},\"jwtKeys\":{\"keys\":[{\"kty\":\"RSA\",\"kid\":\"wU3ifIIaLOUAReRB/FG6eM1P1QM=\",\"use\":\"sig\",\"x5t\":\"5eOfy1Nn2MMIKVRRkq0OgFAw348\",\"x5c\":[\"MIIDdzCCAl+gAwIBAgIES3eb+zANBgkqhkiG9w0BAQsFADBsMRAwDgYDVQQGEwdVbmtub3duMRAwDgYDVQQIEwdVbmtub3duMRAwDgYDVQQHEwdVbmtub3duMRAwDgYDVQQKEwdVbmtub3duMRAwDgYDVQQLEwdVbmtub3duMRAwDgYDVQQDEwdVbmtub3duMB4XDTE2MDUyNDEzNDEzN1oXDTI2MDUyMjEzNDEzN1owbDEQMA4GA1UEBhMHVW5rbm93bjEQMA4GA1UECBMHVW5rbm93bjEQMA4GA1UEBxMHVW5rbm93bjEQMA4GA1UEChMHVW5rbm93bjEQMA4GA1UECxMHVW5rbm93bjEQMA4GA1UEAxMHVW5rbm93bjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANdIhkOZeSHagT9ZecG+QQwWaUsi7OMv1JvpBr/7HtAZEZMDGWrxg/zao6vMd/nyjSOOZ1OxOwjgIfII5+iwl37oOexEH4tIDoCoToVXC5iqiBFz5qnmoLzJ3bF1iMupPFjz8Ac0pDeTwyygVyhv19QcFbzhPdu+p68epSatwoDW5ohIoaLzbf+oOaQsYkmqyJNrmht091XuoVCazNFt+UJqqzTPay95Wj4F7Qrs+LCSTd6xp0Kv9uWG1GsFvS9TE1W6isVosjeVm16FlIPLaNQ4aEJ18w8piDIRWuOTUy4cbXR/Qg6a11l1gWls6PJiBXrOciOACVuGUoNTzztlCUkCAwEAAaMhMB8wHQYDVR0OBBYEFMm4/1hF4WEPYS5gMXRmmH0gs6XjMA0GCSqGSIb3DQEBCwUAA4IBAQDVH/Md9lCQWxbSbie5lPdPLB72F4831glHlaqms7kzAM6IhRjXmd0QTYq3Ey1J88KSDf8A0HUZefhudnFaHmtxFv0SF5VdMUY14bJ9UsxJ5f4oP4CVh57fHK0w+EaKGGIw6TQEkL5L/+5QZZAywKgPz67A3o+uk45aKpF3GaNWjGRWEPqcGkyQ0sIC2o7FUTV+MV1KHDRuBgreRCEpqMoY5XGXe/IJc1EJLFDnsjIOQU1rrUzfM+WP/DigEQTPpkKWHJpouP+LLrGRj2ziYVbBDveP8KtHvLFsnexA/TidjOOxChKSLT9LYFyQqsvUyCagBb4aLs009kbW6inN8zA6\"],\"n\":\"10iGQ5l5IdqBP1l5wb5BDBZpSyLs4y_Um-kGv_se0BkRkwMZavGD_Nqjq8x3-fKNI45nU7E7COAh8gjn6LCXfug57EQfi0gOgKhOhVcLmKqIEXPmqeagvMndsXWIy6k8WPPwBzSkN5PDLKBXKG_X1BwVvOE9276nrx6lJq3CgNbmiEihovNt_6g5pCxiSarIk2uaG3T3Ve6hUJrM0W35QmqrNM9rL3laPgXtCuz4sJJN3rGnQq_25YbUawW9L1MTVbqKxWiyN5WbXoWUg8to1DhoQnXzDymIMhFa45NTLhxtdH9CDprXWXWBaWzo8mIFes5yI4AJW4ZSg1PPO2UJSQ\",\"e\":\"AQAB\"},{\"kty\":\"RSA\",\"kid\":\"DxVyBn8xFcDizb0rG9p9KuwV+Ks=\",\"use\":\"sig\",\"x5t\":\"-1Qji3BYyCxY_q3muza4Ws8iwLg\",\"x5c\":[\"MIIC1TCCAb2gAwIBAgIIdrFocwIVD08wDQYJKoZIhvcNAQELBQAwGTEXMBUGA1UEAxMOb2F1dGgyLXNpZ25pbmcwHhcNMjAxMDI5MjA0OTIxWhcNMzAwOTA3MjA0OTIxWjAZMRcwFQYDVQQDEw5vYXV0aDItc2lnbmluZzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKjRweThMIrOXOeRKThyNQhBdPnJhd5mkf4/aQuoHcZIkGFvcZUR8EAZwVYt4UKoHtSyfFtblFxgym5RPgqlw54s7LkQEhYvEnGHpijbTu8P0B/yCsgzrrUS1yHaKlCScVENRTzK8v0TIORwPDFjIOj+F0wdbbaguP0CYayBKZnlUJk4Zlbse2IzaBPjSmw+Zq5X0AlAAZTYaCbdEUKeFKvluitd6HHz44TjGfgv/Z6RsGNpnjEN6gvfXvzVBjST/fU5m88yRMxt1XdtWhsnBdK4lJ4w+CfnpKMQxguyyKqr5F24dRzg2kF5IaKiomef/bV0lZAUpMeQlpQtR+eH7BcCAwEAAaMhMB8wHQYDVR0OBBYEFHNfVtJRqpl30tpqcVJ1hy4HtztsMA0GCSqGSIb3DQEBCwUAA4IBAQAQkoS2y8KR9FLlfxZ0cGocMBQck2j+ZJVvvScSjQGdKByF4w67DEt436x6GrWEJSRZB3C4sU7HgPnmsWaavalmklD2EhJr5IYko+KrmEY1gT4gBlyFdGRIK2LJfhUjG3rBoqc0N++x81lNPKRNk1+eUiZQ50wRbGCAYGiHLA6G/ZFt2z6Fo5Muhi5dKIAcElpCSBHlEi9FiomMgmkn3P27C9Lv26uutacah3pJwyybqBviC7TRWMteGDvmzXszp2myGXXgrLcym6u0BEjKdyphqbLJkTge42Jg6NXx1idlBpBMiN6ILykrggxgaWlnvTm6HqkZiYE6jbRNHhZD58jw\"],\"n\":\"qNHB5OEwis5c55EpOHI1CEF0-cmF3maR_j9pC6gdxkiQYW9xlRHwQBnBVi3hQqge1LJ8W1uUXGDKblE-CqXDnizsuRASFi8ScYemKNtO7w_QH_IKyDOutRLXIdoqUJJxUQ1FPMry_RMg5HA8MWMg6P4XTB1ttqC4_QJhrIEpmeVQmThmVux7YjNoE-NKbD5mrlfQCUABlNhoJt0RQp4Uq-W6K13ocfPjhOMZ-C_9npGwY2meMQ3qC99e_NUGNJP99TmbzzJEzG3Vd21aGycF0riUnjD4J-ekoxDGC7LIqqvkXbh1HODaQXkhoqKiZ5_9tXSVkBSkx5CWlC1H54fsFw\",\"e\":\"AQAB\"},{\"kty\":\"RSA\",\"kid\":\"o/I6TwqzHVNONrvQM0Dyd3L2mrw=\",\"use\":\"sig\",\"x5t\":\"Cc3tPZsanYMBgq_cNriwaI7yhsU\",\"x5c\":[\"MIIC1TCCAb2gAwIBAgIEYUm9OTANBgkqhkiG9w0BAQsFADAbMRkwFwYDVQQDDBBvaWRjLXNpZ25pbmctcnNhMB4XDTIxMDkyMTExMDg0MVoXDTMxMDkyMTExMDg0MVowGzEZMBcGA1UEAwwQb2lkYy1zaWduaW5nLXJzYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJ/lHfqCR8NXkPY2tb1JFcK0H98tPH0y9Z+XzQ0aGC9ZCpuc+dAGloHn/dOTdawU2F0ASedvgL7Ifx0MetowsaYu6DamZlmGXF4WkN9wqNi82VfsfZByFOeNcXWeQN6mUeN62/s8TJLYbMUccBD3dfCQfiCEQPtUU+dRkcIp9mL54M6rDK/7nS53z8IKEFsfPxOvdkZVzQq+eveHEvxqweHkih76axCpptincL3MnzMWG1UZnOOceB/nUgPGVSoH95zJqyJdEgoaLC4BP1xXdFAKDFpai6T4RJyLM2dYF6n05MOuGVW3xziJ69AdHwCgby/LNvhnt7cwoKKiL6CRR7kCAwEAAaMhMB8wHQYDVR0OBBYEFLSwkiYP/LuusS+ZJBk/YIf/t1GRMA0GCSqGSIb3DQEBCwUAA4IBAQAVul110FBQ//CMUJYrAJff1UkTGSqsqe2SAqtyz220CuGHw0l+qGNu//regSIBI/SPvlkLfWoKebacyn2138s8JDIVAxHU0CDyK4ZdzaWY9v5Id1SHwdeHjexOI3osqpUxfCcAxNHS1YE8DeUODkmMWTjl6M5hjBUceILTjL0nbIG+HgLROjZ7ue0Y0BMVojlafsqGFeXKmgldHFQ2yXbYmP94YqHdpTBqVdF49ilAi8ZER08rgtrc+5HZFIzkM+OPVwZJ15+twSRlLUaFdNQG7pKcbSUY6Wyiihpgfq5/ukW5coT0G55Trc6QGOCyFLUP965fX9+VsQZW15MKvtis\"],\"n\":\"n-Ud-oJHw1eQ9ja1vUkVwrQf3y08fTL1n5fNDRoYL1kKm5z50AaWgef905N1rBTYXQBJ52-Avsh_HQx62jCxpi7oNqZmWYZcXhaQ33Co2LzZV-x9kHIU541xdZ5A3qZR43rb-zxMkthsxRxwEPd18JB-IIRA-1RT51GRwin2YvngzqsMr_udLnfPwgoQWx8_E692RlXNCr5694cS_GrB4eSKHvprEKmm2KdwvcyfMxYbVRmc45x4H-dSA8ZVKgf3nMmrIl0SChosLgE_XFd0UAoMWlqLpPhEnIszZ1gXqfTkw64ZVbfHOInr0B0fAKBvL8s2-Ge3tzCgoqIvoJFHuQ\",\"e\":\"AQAB\"},{\"kty\":\"EC\",\"kid\":\"Fol7IpdKeLZmzKtCEgi1LDhSIzM=\",\"use\":\"sig\",\"x5t\":\"MUOPc5byMEN9q_9gqArkd1EDajg\",\"x5c\":[\"MIIBwjCCAWkCCQCw3GyPBTSiGzAJBgcqhkjOPQQBMGoxCzAJBgNVBAYTAlVLMRAwDgYDVQQIEwdCcmlzdG9sMRAwDgYDVQQHEwdCcmlzdG9sMRIwEAYDVQQKEwlGb3JnZVJvY2sxDzANBgNVBAsTBk9wZW5BTTESMBAGA1UEAxMJZXMyNTZ0ZXN0MB4XDTE3MDIwMzA5MzQ0NloXDTIwMTAzMDA5MzQ0NlowajELMAkGA1UEBhMCVUsxEDAOBgNVBAgTB0JyaXN0b2wxEDAOBgNVBAcTB0JyaXN0b2wxEjAQBgNVBAoTCUZvcmdlUm9jazEPMA0GA1UECxMGT3BlbkFNMRIwEAYDVQQDEwllczI1NnRlc3QwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQ3sy05tV/3YUlPBi9jZm9NVPeuBmntrtcO3NP/1HDsgLsTZsqKHD6KWIeJNRQnONcriWVaIcZYTKNykyCVUz93MAkGByqGSM49BAEDSAAwRQIgZhTox7WpCb9krZMyHfgCzHwfu0FVqaJsO2Nl2ArhCX0CIQC5GgWD5jjCRlIWSEFSDo4DZgoQFXaQkJUSUbJZYpi9dA==\"],\"x\":\"N7MtObVf92FJTwYvY2ZvTVT3rgZp7a7XDtzT_9Rw7IA\",\"y\":\"uxNmyoocPopYh4k1FCc41yuJZVohxlhMo3KTIJVTP3c\",\"crv\":\"P-256\"},{\"kty\":\"EC\",\"kid\":\"I4x/IijvdDsUZMghwNq2gC/7pYQ=\",\"use\":\"sig\",\"x5t\":\"GxQ9K-sxpsH487eSkJ7lE_SQodk\",\"x5c\":[\"MIIB/zCCAYYCCQDS7UWmBdQtETAJBgcqhkjOPQQBMGoxCzAJBgNVBAYTAlVLMRAwDgYDVQQIEwdCcmlzdG9sMRAwDgYDVQQHEwdCcmlzdG9sMRIwEAYDVQQKEwlGb3JnZVJvY2sxDzANBgNVBAsTBk9wZW5BTTESMBAGA1UEAxMJZXMzODR0ZXN0MB4XDTE3MDIwMzA5MzgzNFoXDTIwMTAzMDA5MzgzNFowajELMAkGA1UEBhMCVUsxEDAOBgNVBAgTB0JyaXN0b2wxEDAOBgNVBAcTB0JyaXN0b2wxEjAQBgNVBAoTCUZvcmdlUm9jazEPMA0GA1UECxMGT3BlbkFNMRIwEAYDVQQDEwllczM4NHRlc3QwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAASTnBK9b/omE64KP7090NZ0QDigf3RFKYLYZOWKJQcCFePquZN0TZL7/MaYwXG5+5Vd9tH61GhVxkwKhSuQq25lQjJ8KADLxvQVac9mp6/Cl2hPMZAE5dI2Lq4i03+ji0cwCQYHKoZIzj0EAQNoADBlAjAsZyt7iNOBtYCtdEro1QJ2RQ8LOARQ4MBu+8LJNICdi+slnmdh75ulI9UcEhgqiFsCMQD32u2nm26LXbuwKC9DP8BjV+CdFPOZdv/UUfiQBNXz0cJE+uhEfnMJtgvwcovqntI=\"],\"x\":\"k5wSvW_6JhOuCj-9PdDWdEA4oH90RSmC2GTliiUHAhXj6rmTdE2S-_zGmMFxufuV\",\"y\":\"XfbR-tRoVcZMCoUrkKtuZUIyfCgAy8b0FWnPZqevwpdoTzGQBOXSNi6uItN_o4tH\",\"crv\":\"P-384\"},{\"kty\":\"EC\",\"kid\":\"pZSfpEq8tQPeiIe3fnnaWnnr/Zc=\",\"use\":\"sig\",\"x5t\":\"6syJZMj8X0Adm-XNzWHHIl_3kG4\",\"x5c\":[\"MIICSTCCAawCCQD+h7BW+8vxbTAJBgcqhkjOPQQBMGoxCzAJBgNVBAYTAlVLMRAwDgYDVQQIEwdCcmlzdG9sMRAwDgYDVQQHEwdCcmlzdG9sMRIwEAYDVQQKEwlGb3JnZVJvY2sxDzANBgNVBAsTBk9wZW5BTTESMBAGA1UEAxMJZXM1MTJ0ZXN0MB4XDTE3MDIwMzA5NDA0OVoXDTIwMTAzMDA5NDA0OVowajELMAkGA1UEBhMCVUsxEDAOBgNVBAgTB0JyaXN0b2wxEDAOBgNVBAcTB0JyaXN0b2wxEjAQBgNVBAoTCUZvcmdlUm9jazEPMA0GA1UECxMGT3BlbkFNMRIwEAYDVQQDEwllczUxMnRlc3QwgZswEAYHKoZIzj0CAQYFK4EEACMDgYYABAB3VSmzQx8pvjIlIenGmqHf5LafD1zeoNcyCi85WgkjmT/NiimkLH8JbQCpzK8NdvZ1cftpLfMdSdaadQA3vR7V7QFKoUSnGLwOpRJSN1K36r6boVbMhBQUOHDPxPb+Fhp0XP6a4ok1Wv1Au2HwrUCU/RfDnNtb/4ue0qdzKv78ObnkXTAJBgcqhkjOPQQBA4GLADCBhwJCAd0cIC8QSVn2bp3DGYXxkz5vPNmR7Mv22E2WaWtHlsYcBIY8E7Kd4wxVD+otogDFf4fcFmA34tk5n4PLa67wS26CAkExH1YP2rFbF3LQZVEjTHOwTh+K5S0cIxmzTGx7nnH9+dnxSpCaxKjQ/L//pH/siWe6h/dmUkTY3Y9t939ypY1Blw==\"],\"x\":\"AHdVKbNDHym-MiUh6caaod_ktp8PXN6g1zIKLzlaCSOZP82KKaQsfwltAKnMrw129nVx-2kt8x1J1pp1ADe9HtXt\",\"y\":\"AUqhRKcYvA6lElI3UrfqvpuhVsyEFBQ4cM_E9v4WGnRc_priiTVa_UC7YfCtQJT9F8Oc21v_i57Sp3Mq_vw5ueRd\",\"crv\":\"P-521\"},{\"kty\":\"RSA\",\"kid\":\"DkKMPE7hFVEn77WWhVuzaoFp4O8=\",\"use\":\"enc\",\"x5t\":\"JRxY4hJRL3sI_dAUWUEosCEQJ3A\",\"x5c\":[\"MIIDYTCCAkmgAwIBAgIEFt4OQjANBgkqhkiG9w0BAQsFADBhMQswCQYDVQQGEwJVSzEQMA4GA1UECBMHQnJpc3RvbDEQMA4GA1UEBxMHQnJpc3RvbDESMBAGA1UEChMJRm9yZ2VSb2NrMQswCQYDVQQLEwJBTTENMAsGA1UEAxMEdGVzdDAeFw0xODA0MDMxNDIwNThaFw0yODAzMzExNDIwNThaMGExCzAJBgNVBAYTAlVLMRAwDgYDVQQIEwdCcmlzdG9sMRAwDgYDVQQHEwdCcmlzdG9sMRIwEAYDVQQKEwlGb3JnZVJvY2sxCzAJBgNVBAsTAkFNMQ0wCwYDVQQDEwR0ZXN0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi7t6m4d/02dZ8dOe+DFcuUYiOWueHlNkFwdUfOs06eUETOV6Y9WCXu3D71dbF0Fhou69ez5c3HAZrSVS2qC1Htw9NkVlLDeED7qwQQMmSr7RFYNQ6BYekAtn/ScFHpq8Tx4BzhcDb6P0+PHCo+bkQedxwhbMD412KSM2UAVQaZ+TW+ngdaaVEs1Cgl4b8xxZ9ZuApXZfpddNdgvjBeeYQbZnaqU3b0P5YE0s0YvIQqYmTjxh4RyLfkt6s/BS1obWUOC+0ChRWlpWE7QTEVEWJP5yt8hgZ5MecTmBi3yZ/0ts3NsL83413NdbWYh+ChtP696mZbJozflF8jR9pewTbQIDAQABoyEwHzAdBgNVHQ4EFgQUDAvAglxsoXuEwI2NT1hFtVww2SUwDQYJKoZIhvcNAQELBQADggEBADiHqUwRlq1xdHP7S387vMLOr+/OUgNvDUogeyrpdj5vFve/CBxSFlcoY215eE0xzj2+bQoe5To3s8CWkP9hqB3EdhaRBfCrd8Vpvu8xBZcxQzmqwNjmeDrxNpKes717t05fDGgygUM8xIBs29JwRzHzf7e0ByJjn9fvlUjDAGZ7emCTN382F2iOeLC2ibVl7dpmsWZTINhQRbmq5L4ztOcjITk5WZnBF439oRRn68fWZVkOv2UqaKbkuMjgotNuot+ebHtOchEiwKz8VAK7O3/IgD6rfNBfz+c/WeoPcrfQBR4zfizw/ioR115RSywifzlwq5yziqyU04eP4wLr3cM=\"],\"n\":\"i7t6m4d_02dZ8dOe-DFcuUYiOWueHlNkFwdUfOs06eUETOV6Y9WCXu3D71dbF0Fhou69ez5c3HAZrSVS2qC1Htw9NkVlLDeED7qwQQMmSr7RFYNQ6BYekAtn_ScFHpq8Tx4BzhcDb6P0-PHCo-bkQedxwhbMD412KSM2UAVQaZ-TW-ngdaaVEs1Cgl4b8xxZ9ZuApXZfpddNdgvjBeeYQbZnaqU3b0P5YE0s0YvIQqYmTjxh4RyLfkt6s_BS1obWUOC-0ChRWlpWE7QTEVEWJP5yt8hgZ5MecTmBi3yZ_0ts3NsL83413NdbWYh-ChtP696mZbJozflF8jR9pewTbQ\",\"e\":\"AQAB\"}]},\"authzData\":\"eyJ0eXAiOiJKV1QiLCJraWQiOiJEeFZ5Qm44eEZjRGl6YjByRzlwOUt1d1YrS3M9IiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIzNzQ0ODUiLCJjdHMiOiJPQVVUSDJfU1RBVEVMRVNTX0dSQU5UIiwiYXV0aF9sZXZlbCI6MzAsImF1ZGl0VHJhY2tpbmdJZCI6ImI5OGUzYzk2LTAzYzctNDA5ZS05Y2ZjLTQ0ZWFjYTEyZDExZi0yNTU3MzExOTIiLCJzdWJuYW1lIjoiMzc0NDg1IiwiaXNzIjoiaHR0cHM6Ly9hdXRoLmlzbGFuZHNiYW5raS5pczo0NDMvc3NvL29hdXRoMi9yZWFsbXMvcm9vdC9yZWFsbXMvaXNiIiwidG9rZW5OYW1lIjoiYWNjZXNzX3Rva2VuIiwidG9rZW5fdHlwZSI6IkJlYXJlciIsImF1dGhHcmFudElkIjoiNTd6LUsxWXItdzF4YVFPS3ZrUEVBazR0T0tNIiwibm9uY2UiOiIxMmI4NzYwMTUwMTE5OTBkMzQzYjc5Nzg0MmYwY2NkYTg1UnljOWxpRiIsImF1ZCI6IklOQiIsIm5iZiI6MTc1NzI1MTk4OSwiZ3JhbnRfdHlwZSI6ImF1dGhvcml6YXRpb25fY29kZSIsInNjb3BlIjpbImNhcmRzOnJlYWQiLCJmeGluc3RydW1lbnRzIiwiZG9jdW1lbnRzIiwibG9hbnMiLCJvcGVuaWQiLCJwYXltZW50cyIsImNhcmRzOnRyYW5zYWN0aW9uczpyZWFkIiwiZXhwZW5zZXM6d3JpdGUiLCJpYW06dXNlcnMiLCJtYXJrZXRzb3JkZXJzIiwiZXhwZW5zZXM6cmVhZCIsImNhcmRzOndyaXRlIiwib25saW5lYmFua1Byb2ZpbGUiLCJjbGFpbXMiLCJjYXJkczpwaW46cmVhZCIsImFjY291bnRzIiwiY2FyZHM6cGFuOnJlYWQiXSwiYXV0aF90aW1lIjoxNzU3MjUxOTg2LCJyZWFsbSI6Ii9pc2IiLCJleHAiOjE3NTcyNTIxNjksImlhdCI6MTc1NzI1MTk4OSwiZXhwaXJlc19pbiI6MTgwLCJqdGkiOiIwV25yQmYyU2tKcEZxVHN4U29vNVpiSHA4cDAiLCJtYXlfYWN0Ijp7ImNsaWVudF9pZCI6Im9uZWFwcCJ9LCJ2ZXIiOiIxLjEiLCJ1c2VyVHlwZSI6IjEiLCJhY3QiOnsic3ViIjoiMzc0NDg1IiwicGFydHlfaWQiOiIwMDAxMjgyMzEyIiwibmFtZSI6Ikd1bm5hciBTdGVpbmdyw61tc3NvbiIsInNzbiI6IjE2MTE3OTQ3NzkifSwicGFydHlfaWQiOiIwMDAxMjgyMzEyIiwibmFtZSI6Ikd1bm5hciBTdGVpbmdyw61tc3NvbiIsInNzbiI6IjE2MTE3OTQ3NzkiLCJ0cmFja2luZ19pZCI6ImI5OGUzYzk2LTAzYzctNDA5ZS05Y2ZjLTQ0ZWFjYTEyZDExZi0yNTU3MjUwNDAiLCJhdXRoU291cmNlIjoiSU5CIiwiYXV0aE1ldGhvZCI6ImF1ZGtlbm5pLXNpbSIsImt5Y1N0YXR1cyI6IjEiLCJjdXN0b21lciI6eyJwYXJ0eV9pZCI6IjAwMDEyODIzMTIiLCJzc24iOiIxNjExNzk0Nzc5In19.hqUCJZvrijfcVokNBwwLFtTEjIY9LjilYrIOM1IgUeQtKSLE4VGGiGqIPkM4H8kW6H_qgOYxcAVBsvNeUxMatPfPzJZBkJCvIl1rUdwgZJsYPOM7BbD4ttH9bAE-3Oidtw6rl-TFRbVc8qgwCtCNAsBy-WzCZSi1VnhwvAEowveR5Gf8aHiOAQkbc3EL3e-_gSNROW2xXLnc4xR1cqP1V6k43w7JiZTLFzSRqMz5izWFp-RiE73j09KpUZbG4jhbgiYK6e9bruDF5SveFHDYelKj68cd2kjunjPfQpaRjisiJRPs0O4KskBcN-UuQXlS-s1MhdBFN5XzUCwbBRktrQ\",\"access_token_expires_at\":1757252168000,\"userData\":{\"userId\":\"374485\",\"partyId\":\"0001282312\",\"nationalRegisterId\":\"1611794779\",\"username\":\"11gunnarso\",\"userType\":\"1\",\"onBehalfOfPartyId\":\"0001282312\",\"relatedAccounts\":[{\"customerUserType\":\"1\",\"connectedSSNs\":{\"0\":{\"nationalRegisterId\":\"1611794779\",\"customerType\":\"1\",\"name\":\"Gunnar Steingrímsson\",\"partyId\":\"0001282312\"}},\"onBehalfOfPartyName\":\"Gunnar Steingrímsson\",\"userPartyId\":\"0001282312\",\"onBehalfOfSsn\":\"1611794779\",\"userName\":\"11gunnarso\",\"userId\":\"374485\",\"onBehalfOfPartyId\":\"0001282312\"}],\"kycStatus\":\"1\",\"kycRating\":\"2\",\"authenticationPhoneNumber\":\"8550034\",\"authenticationMethod\":\"audkenni-sim\",\"onlineBankLastSuccessLogins\":[{\"loginTime\":\"2025-09-07T13:33:06.783Z\",\"loginMethod\":\"audkenni-sim\",\"auditId\":\"b98e3c96-03c7-409e-9cfc-44eaca12d11f-255725040\"},{\"loginTime\":\"2025-09-07T13:25:47.618Z\",\"loginMethod\":\"audkenni-sim\",\"auditId\":\"60148476-0663-4cb6-86a9-b8561c6210a9-221398851\"},{\"loginTime\":\"2025-09-07T13:23:35.591Z\",\"loginMethod\":\"audkenni-sim\",\"auditId\":\"60148476-0663-4cb6-86a9-b8561c6210a9-221365156\"},{\"loginTime\":\"2025-09-07T13:20:48.607Z\",\"loginMethod\":\"audkenni-sim\",\"auditId\":\"b98e3c96-03c7-409e-9cfc-44eaca12d11f-255517571\"},{\"loginTime\":\"2025-09-07T13:15:15.810Z\",\"loginMethod\":\"audkenni-sim\",\"auditId\":\"b98e3c96-03c7-409e-9cfc-44eaca12d11f-255425123\"}],\"sub\":\"374485\",\"subname\":\"374485\"},\"session_state\":\"\"}",
+    "crmIdSent": "true",
+    "dtCookieju8zkpx5": "v_4_srv_13_sn_FD3E6C494FD3620573868558D8388578_perc_100000_ol_0_mul_1_app-3A1298000963a98b63_1_app-3Adb3a54b47dc8154c_1",
+    "dtSaju8zkpx5": "-",
+    "isb_session": "02ded3e0-ff84-7d32-d725-63764eac2702",
+    "rxvisitidju8zkpx5": "CHKCVPSNCJKUMURJCOUEBFBJWIUHDATT-0",
+    "rxvtju8zkpx5": "1757253794883|1757251964008"
+  }
+}

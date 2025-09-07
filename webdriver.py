@@ -5,6 +5,51 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 import time
+import json
+import os
+from datetime import datetime
+
+def save_auth_data(driver, filename="auth_data.json"):
+    """
+    Save all authentication data (cookies, localStorage, sessionStorage) to a file
+    """
+    try:
+        auth_data = {
+            "timestamp": datetime.now().isoformat(),
+            "url": driver.current_url,
+            "cookies": driver.get_cookies(),
+            "local_storage": {},
+            "session_storage": {}
+        }
+        
+        # Get localStorage data
+        try:
+            local_storage_script = "return Object.keys(localStorage).reduce((obj, key) => { obj[key] = localStorage.getItem(key); return obj; }, {});"
+            auth_data["local_storage"] = driver.execute_script(local_storage_script)
+        except Exception as e:
+            print(f"Could not retrieve localStorage: {e}")
+        
+        # Get sessionStorage data
+        try:
+            session_storage_script = "return Object.keys(sessionStorage).reduce((obj, key) => { obj[key] = sessionStorage.getItem(key); return obj; }, {});"
+            auth_data["session_storage"] = driver.execute_script(session_storage_script)
+        except Exception as e:
+            print(f"Could not retrieve sessionStorage: {e}")
+        
+        # Save to file
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(auth_data, f, indent=2, ensure_ascii=False)
+        
+        print(f"✅ Auth data saved to {filename}")
+        print(f"   - Cookies: {len(auth_data['cookies'])}")
+        print(f"   - LocalStorage keys: {len(auth_data['local_storage'])}")
+        print(f"   - SessionStorage keys: {len(auth_data['session_storage'])}")
+        
+        return True
+        
+    except Exception as e:
+        print(f"❌ Failed to save auth data: {e}")
+        return False
 
 def login_to_islandsbanki():
     # Set up Chrome options
@@ -78,6 +123,11 @@ def login_to_islandsbanki():
                 
                 print(f"✅ Found 'Ávöxtun' element with text: '{avoxtur_element.text}'")
                 print("✅ Login successful!")
+                
+                # Save all authentication data to file
+                print("\n🔐 Saving authentication data...")
+                save_auth_data(driver, "islandsbanki_auth.json")
+                
                 return True
                     
             except Exception as e:
